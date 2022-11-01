@@ -10,8 +10,11 @@ They are simply the methods that I have found to provide a good balance between:
 
 ## Data
 Some data that can be used in the examples
+
 [ISE Logfiles](https://github.com/AUVPeter/PythonPractice/tree/main/logfiles)
 
 ## Collection
+
 [Reading CSVs](https://github.com/AUVPeter/PythonPractice/tree/main/reading_csv)
+
 [Dealing with coordinates](https://github.com/AUVPeter/PythonPractice/tree/main/dealing_with_coordinates)
