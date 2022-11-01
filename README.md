@@ -14,6 +14,7 @@ Some data that can be used in the examples
 [ISE Logfiles](https://github.com/AUVPeter/PythonPractice/tree/main/logfiles)
 
 ## Collection
+A collection of tutorials on a few common tasks. Roughly ordered so that the laters ones build on the earlier ones
 
 [Reading CSVs](https://github.com/AUVPeter/PythonPractice/tree/main/reading_csv)
 
