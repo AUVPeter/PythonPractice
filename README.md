@@ -9,3 +9,4 @@ They are simply the methods that I have found to provide a good balance between:
 - Availability, choosing methods and libraries that are generally available and not requiring the inclusion of many third parties. the libraries used here come with Anaconda,or are part of the standard QGIS python
 
 
+[link](reading csv/README.md)
