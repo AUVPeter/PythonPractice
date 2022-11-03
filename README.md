@@ -19,3 +19,5 @@ A collection of tutorials on a few common tasks. Roughly ordered so that the lat
 [Reading CSVs](https://github.com/AUVPeter/PythonPractice/tree/main/reading_csv)
 
 [Dealing with coordinates](https://github.com/AUVPeter/PythonPractice/tree/main/dealing_with_coordinates)
+
+[Dealing with date time](https://github.com/AUVPeter/PythonPractice/tree/main/dealing_with_date_time)
