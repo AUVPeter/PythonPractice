@@ -48,7 +48,7 @@ while True:
         print(msg)
 ~~~
 
-If we are only interested in certain messages, we can filter the msg object using its `get_type()` function. For example if we are interested in the 'GLOBAL_POSITION_INT` messages we would modify the above block to detect when a message of that type arrives. We also use the `to_dict()` function to convert the raw message object into a python dictionary so we can have access to each data field directly
+If we are only interested in certain messages, we can filter the msg object using its `get_type()` function. For example if we are interested in the `GLOBAL_POSITION_INT` messages we would modify the above block to detect when a message of that type arrives. We also use the `to_dict()` function to convert the raw message object into a python dictionary so we can have access to each data field directly
 
 ~~~python
 while True:
