@@ -39,7 +39,7 @@ To establish a session we send our own heartbeat message to declare what sort of
 mav_conn.mav.heartbeat_send(mavutil.mavlink.MAV_TYPE_GCS,mavutil.mavlink.MAV_AUTOPILOT_INVALID, 0, 0, 0)
 ~~~
 
-We can now listen for any messages sent from the device over Mavlink. The `recv_msg` function is used to recv the next available message. For this example we will receive and print all messages as they arrive
+We can now listen for any messages sent from the device over Mavlink. The `recv_msg` function is used to recv the next available message. For this example we will receive and print all messages as they arrive. the `if msg` line is to skip any misformed messages that are received, as they will be returned as `None` types by mavutil
 
 ~~~python
 while True:
