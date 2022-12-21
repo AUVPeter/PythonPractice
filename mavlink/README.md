@@ -60,5 +60,22 @@ while True:
             print(f"At {msg_dict['time_boot_ms']}ms the position is: {msg_dict['lat']},{msg_dict['lon']}")
 ~~~
 
+Here is the complete example so far
 
+~~~python
+from pymavlink import mavutil
 
+mav_conn = mavutil.mavlink_connection('COM23')
+mav_conn.wait_heartbeat()
+
+mav_conn.mav.heartbeat_send(mavutil.mavlink.MAV_TYPE_GCS,
+                       mavutil.mavlink.MAV_AUTOPILOT_INVALID, 0, 0, 0)
+
+while True:
+    msg = mav_conn.recv_msg()
+    if msg:
+        if msg.get_type() == 'GLOBAL_POSITION_INT':
+            msg_dict = msg.to_dict()
+            # Do someting interesting
+            print(f"At {msg_dict['time_boot_ms']}ms the position is: {msg_dict['lat']},{msg_dict['lon']}")
+~~~            
